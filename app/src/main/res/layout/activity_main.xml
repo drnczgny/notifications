@@ -19,21 +19,30 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btnOpenSecondPage"
-            android:layout_width="wrap_content"
+            android:id="@+id/btnSimpleNotification"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Second activity" />
+            android:text="Simple notification" />
+
+        <Button
+            android:id="@+id/btnExpandableNotification"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Big text notification" />
+
+        <Button
+            android:id="@+id/btnMultipleLinesNotification"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Multiple lines notification" />
+
+        <Button
+            android:id="@+id/btnImagesNotification"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Images notification" />
 
     </LinearLayout>
 
-    <fragment
-        android:id="@+id/my_nav_host_fragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="50dp"
-        android:layout_height="200dp"
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/nav_graph" >
-
-    </fragment>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
